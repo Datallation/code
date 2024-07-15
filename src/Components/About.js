@@ -1,5 +1,5 @@
 import React from "react";
-import Doctor from "../Assets/doctor-group.png";
+import hero from "../Assets/hero.jpg";
 import SolutionStep from "./SolutionStep";
 import "../Styles/About.css";
 
@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="about-section" id="about">
       <div className="about-image-content">
-        <img src={Doctor} alt="Doctor Group" className="about-image1" />
+        <img src={hero} alt="Doctor Group" className="about-image1" />
       </div>
 
       <div className="about-text-content">
@@ -15,13 +15,12 @@ function About() {
           <span>About Us</span>
         </h3>
         <p className="about-description">
-          Welcome to Health Plus, your trusted partner for accessible and
-          personalized healthcare. Our expert doctors offer online consultations
-          and specialized services, prioritizing your well-being. Join us on
-          this journey towards a healthier you.
+        Datallation is a data solutions company with the ambitious goal of becoming the largest data service provider. We also aim to educate the younger generation about AI data. 
+
+We offer a wide range of services, including data collection, data tagging/labelling, data translation and interpretation, data annotation,audio collection, face extraction, emotions extraction,video annotation, SEO services, and survey provision.
         </p>
 
-        <h4 className="about-text-title">Your Solutions</h4>
+        {/* <h4 className="about-text-title">Your Solutions</h4>
 
         <SolutionStep
           title="Choose a Specialist"
@@ -36,7 +35,7 @@ function About() {
         <SolutionStep
           title="Get Your Solutions"
           description="Our experienced doctors and specialists are here to provide expert advice and personalized treatment plans, helping you achieve your best possible health."
-        />
+        /> */}
       </div>
     </div>
   );

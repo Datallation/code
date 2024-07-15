@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
+    background: linear-gradient(to right, #ffffff, #FBFCFF);
+    height: 100vh;
 }
 /* Image */
 .about-image-content {
@@ -13,8 +14,8 @@
     text-align: center;
 }
 .about-image1 {
-    width: 80%;
-    height: auto;
+    width: 98%;
+    height: 623px;
 }
 /* Text */
 .about-text-content {

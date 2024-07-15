@@ -11,7 +11,8 @@ function LegalDocs() {
     <div className="legal-section-title">
       <h1 className="legal-siteTitle">
         <Link to="/">
-          Health <span className="legal-siteSign">+</span>
+          {/* Health <span className="legal-siteSign">+</span> */}
+          DATALLATION
         </Link>
       </h1>
 
@@ -28,41 +29,39 @@ function LegalDocs() {
         <p className="legal-title">Privacy Policy</p>
         <p className="legal-description">
           Your privacy is paramount to us. Our Privacy Policy outlines how we
-          collect, use, and protect your personal and medical information. We
+          collect, use, and protect your personal data. We
           ensure secure data handling, and you can trust that your information
           is treated with the utmost confidentiality.
         </p>
 
         <p className="legal-title">Terms of Service</p>
         <p className="legal-description">
-          When using Health Plus, you agree to our Terms of Service. This
-          includes guidelines for using our platform, interacting with doctors,
+          When using datallation, you agree to our Terms of Service. This
+          includes guidelines for using our platform, interacting with employees,
           and the responsibilities of both parties. It's essential to understand
           these terms to ensure a smooth experience for all users.
         </p>
 
-        <p className="legal-title">Consultations</p>
+        {/* <p className="legal-title">Consultations</p>
         <p className="legal-description">
           Our platform connects you with expert doctors who provide online
           consultations. These consultations are not a replacement for in-person
           medical visits but serve as a convenient option for medical advice,
           prescriptions, and guidance. It's crucial to provide accurate and
           complete information to receive the best possible care.
-        </p>
+        </p> */}
 
         <p className="legal-title">How it Works</p>
         <p className="legal-description">
-          Health Plus is designed to simplify healthcare access. You can choose
-          a specialist, schedule an appointment, and engage in a virtual
-          consultation. Our specialists offer personalized advice and treatment
-          plans tailored to your needs. Please remember that emergencies require
-          immediate medical attention and should be directed to your local
-          medical facility.
+        Datallation is a data solutions company with the ambitious goal of becoming the largest data service provider.
+         We also aim to educate the younger generation about AI data. We offer a wide range of services, including data collection, 
+         data tagging/labelling, data translation and interpretation, data annotation,audio collection, face extraction, emotions 
+         extraction,video annotation, SEO services, and survey provision.
         </p>
       </div>
 
       <div className="legal-footer">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
+        <p>© Datallation. All rights reserved.</p>
       </div>
     </div>
   );

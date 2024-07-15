@@ -5,11 +5,12 @@
     align-items: center;
     gap: 24px;
     background: linear-gradient(to right, #ECF2FF, #FBFCFF);
+    height: 100vh;
 }
 /* Text section */
 .text-section {
     width: 60%;
-    padding: 0 32px;
+    padding: 0px 0px 0px 130px;
 }
 .text-headline {
     margin-bottom: 12px;
@@ -20,14 +21,14 @@
     letter-spacing: .7px;
 }
 .text-title {
-    width: 500px;
+    /* width: 500px; */
     color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: bold;
 }
 .text-descritpion {
-    width: 475px;
+    width: 615px;
     margin: 32px 0;
     color: rgb(77, 75, 75);
     font-family: 'Rubik', sans-serif;

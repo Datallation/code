@@ -10,35 +10,34 @@ function Footer() {
         <div className="ft-info">
           <div className="ft-info-p1">
             <p className="ft-title">
-              Health <span className="ft-sign">+</span>
+              Datallation 
             </p>
             <p className="ft-description">
-              Talk to online doctors and get medical advice, online
-              prescriptions, refills and medical notes within minutes. On-demand
-              healthcare services at your fingertips.
+            Datallation is a data solutions company with the ambitious goal of becoming the largest data service provider.
+            
             </p>
           </div>
 
-          <SubscribeNewsletter />
+          {/* <SubscribeNewsletter /> */}
         </div>
 
         <div className="ft-list">
           <p className="ft-list-title">Services</p>
           <ul className="ft-list-items">
             <li>
-              <a href="#services">Emergency Care</a>
+              <a href="#services">Image Annotation</a>
             </li>
             <li>
-              <a href="#services">Heart Disease</a>
+              <a href="#services">Video Annotation</a>
             </li>
             <li>
-              <a href="#services">Dental Care</a>
+              <a href="#services">Data Collection</a>
             </li>
             <li>
-              <a href="#services">Prescription</a>
+              <a href="#services">3D object collection</a>
             </li>
             <li>
-              <a href="#services">Insights for doctors</a>
+              <a href="#services">Translation</a>
             </li>
           </ul>
         </div>
@@ -68,25 +67,25 @@ function Footer() {
           <p className="ft-list-title">Talk To Us</p>
           <ul className="ft-list-items">
             <li>
-              <a href="mailto:support@healthplus.com">support@healthplus.com</a>
+              <a href="mailto:datallation@gmail.com">datallation@gmail.com</a>
             </li>
-            <li>
+            {/* <li>
               <a href="mailto:appointment@healthplus.com">
                 appointment@healthplus.com
               </a>
+            </li> */}
+            <li>
+              <a href="tel:">+91-9335275340</a>
             </li>
             <li>
-              <a href="tel:+022 5454 5252">+022 5454 5252</a>
-            </li>
-            <li>
-              <a href="tel:+022 2326 6232">+022 2326 6232</a>
+              <a href="tel:+966-0572171061">+966-0572171061</a>
             </li>
           </ul>
         </div>
       </div>
 
       <div className="ft-copyright">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
+        <p>© DATALLATION. All rights reserved.</p>
 
         <ul className="ft-social-links">
           <li>

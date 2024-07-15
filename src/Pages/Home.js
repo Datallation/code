@@ -13,11 +13,11 @@ function Home() {
     <div className="home-section">
       <Navbar />
       <Hero />
-      <Info />
       <About />
+      <Info />
       <BookAppointment />
-      <Reviews />
-      <Doctors />
+      {/* <Reviews /> */}
+      {/* <Doctors /> */}
       <Footer />
     </div>
   );

@@ -11,42 +11,37 @@ function Info() {
           <span>What We Do</span>
         </h3>
         <p className="info-description">
-          We bring healthcare to your convenience, offering a comprehensive
-          range of on-demand medical services tailored to your needs. Our
-          platform allows you to connect with experienced online doctors who
-          provide expert medical advice, issue online prescriptions, and offer
-          quick refills whenever you require them.
+        At Datallation, we take pride in our distinctive approach to data services that sets us apart
+from traditional data service providers. Unlike companies that rely on freelancers for their
+work, we are dedicated to ensuring the highest level of data accuracy, transparency, and
+accountability in every project we undertake
         </p>
       </div>
 
       <div className="info-cards-content">
         <InformationCard
-          title="Emergency Care"
-          description="Our Emergency Care service is designed to be your reliable support
-            in critical situations. Whether it's a sudden illness, injury, or
-            any medical concern that requires immediate attention, our team of
-            dedicated healthcare professionals is available 24/7 to provide
-            prompt and efficient care."
-          icon={faTruckMedical}
+          title="Data Annotation"
+          description="We specialize in providing top-notch data annotation services tailored to meet the diverse needs of various
+           industries. Our comprehensive suite of data annotation solutions ensures high-quality, accurate, and efficient results,
+            enabling our clients to build and train their AI and machine learning models effectively."
+          // icon={faTruckMedical}
         />
 
         <InformationCard
-          title="Heart Disease"
-          description="Our team of experienced cardiologists and medical experts use
-            state-of-the-art technology to assess your cardiovascular health and
-            design personalized treatment plans. From comprehensive screenings
-            to advanced interventions, we are committed to helping you maintain
-            a healthy heart and lead a fulfilling life."
-          icon={faHeartPulse}
+          title="Data Collection"
+          description="we understand that high-quality, diverse, and accurate data is the foundation of successful AI and 
+          machine learning projects. Our data collection services are designed to provide you with the essential datasets 
+          required to train and validate your models effectively. We specialize in gathering a wide range of data types to suit 
+          various industry needs."
+          // icon={faHeartPulse}
         />
 
         <InformationCard
-          title="Dental Care"
-          description="Smile with confidence as our Dental Care services cater to all your
-            oral health needs. Our skilled dentists provide a wide range of
-            treatments, from routine check-ups and cleanings to cosmetic
-            procedures and restorative treatments."
-          icon={faTooth}
+          title="Translation"
+          description=" we offer professional translation services in a wide range of languages, ensuring clear and accurate 
+          communication across global markets. Our team of experienced translators is dedicated to providing high-quality 
+          translations that preserve the original meaning and context, making your content accessible to a broader audience"
+          // icon={faTooth}
         />
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Doctor from "../Assets/doctor-picture.png";
+import hero4 from "../Assets/hero4.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate  } from "react-router-dom";
@@ -14,7 +14,7 @@ function Hero() {
   };
 
   const handleBookAppointmentClick = () => {
-    navigate("/appointment");
+    navigate("https://forms.gle/156Swgva9xEMX8iP9");
   };
 
   useEffect(() => {
@@ -36,42 +36,43 @@ function Hero() {
     <div className="section-container">
       <div className="hero-section">
         <div className="text-section">
-          <p className="text-headline">❤️ Health comes first</p>
+          {/* <p className="text-headline">❤️ Health comes first</p> */}
           <h2 className="text-title">
-            Find your Doctor and make an Appointments
+            All Data Service Available
           </h2>
           <p className="text-descritpion">
-            Talk to online doctors and get medical advice, online prescriptions,
-            refills and medical notes within minutes. On-demand healthcare
-            services at your fingertips.
+          Datallation is a data solutions company with the ambitious goal of becoming the largest data service provider. We also aim to educate the younger generation about AI data. 
           </p>
+          <a href="https://forms.gle/156Swgva9xEMX8iP9">
           <button
             className="text-appointment-btn"
             type="button"
-            onClick={handleBookAppointmentClick}
+            // onClick={handleBookAppointmentClick}
+            
           >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+            <FontAwesomeIcon icon={faCalendarCheck} /> Apply for job
           </button>
+          </a>
           <div className="text-stats">
             <div className="text-stats-container">
-              <p>145k+</p>
-              <p>Receive Patients</p>
+              <p>1 Tera Byte +</p>
+              <p>Data</p>
             </div>
 
             <div className="text-stats-container">
-              <p>50+</p>
-              <p>Expert Doctors</p>
+              <p>100+</p>
+              <p>Data Workers</p>
             </div>
 
             <div className="text-stats-container">
-              <p>10+</p>
+              <p>4+</p>
               <p>Years of Experience</p>
             </div>
           </div>
         </div>
 
         <div className="hero-image-section">
-          <img className="hero-image1" src={Doctor} alt="Doctor" />
+          <img className="hero-image1" src={hero4} alt="Doctor" />
         </div>
       </div>
 
