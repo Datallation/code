@@ -41,7 +41,7 @@ function Hero() {
             All Data Service Available
           </h2>
           <p className="text-descritpion">
-          Datallation is a data solutions company with the ambitious goal of becoming the largest data service provider. We also aim to educate the younger generation about AI data. 
+          Datallation is a data solution company with the ambitious goal of becoming the largest data service provider. We also aim to educate the younger generation about AI data. 
           </p>
           <a href="https://forms.gle/156Swgva9xEMX8iP9">
           <button
