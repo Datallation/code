@@ -19,11 +19,9 @@ function LegalDocs() {
       <div className="legal-text-content">
         <p className="legal-title">General Info</p>
         <p className="legal-description">
-          Welcome to Health Plus, your trusted online healthcare platform. Our
-          mission is to provide accessible and personalized healthcare services
-          to individuals seeking expert medical advice and treatment. By using
-          our platform, you agree to the terms outlined in our Privacy Policy
-          and Terms of Service.
+          Welcome to Datallation, your trusted online Data platform. Datallation is a data solution company with the 
+          ambitious goal of becoming the largest data service provider. We also aim to educate the younger generation about AI
+           data.
         </p>
 
         <p className="legal-title">Privacy Policy</p>
