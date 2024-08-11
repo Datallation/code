@@ -95,16 +95,16 @@ function Navbar() {
               About
             </a>
           </li>
-          <li>
+          {/* <li>
             <a onClick={openNav} href="#reviews">
               Reviews
             </a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a onClick={openNav} href="#doctors">
               Doctors
             </a>
-          </li>
+          </li> */}
           <li>
             <a onClick={openNav} href="#contact">
               Contact
